@@ -13,5 +13,5 @@ spec:
    ports: 
    - containerPort: 8080
   volumes:
-  - name: app-storage
+    - name: app-storage
     emptyDir: {}
