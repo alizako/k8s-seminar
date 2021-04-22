@@ -5,7 +5,7 @@ name: nginx
 spec:
 containers:
 - name: nginx
-  image:supergiantkir/animals:bear
+  image: supergiantkir/animals:bear
   ports:
   - containerPort: 80
   volumeMounts:
