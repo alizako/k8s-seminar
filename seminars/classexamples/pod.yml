@@ -6,10 +6,12 @@ spec:
  containers:
  - name: app1 
    image: supergiantkir/animals:bear 
+   mountPath: /storage
    ports: 
    - containerPort: 80
  - name: app2
    image: yanivomc/spring-music:latest
+   mountPath: /storage
    ports: 
    - containerPort: 8080
   volumes:
