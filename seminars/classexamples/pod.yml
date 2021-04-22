@@ -4,14 +4,14 @@ metadata:
 name: nginx
 spec:
 containers:
-- name: app1
-  image: supergiantkir/animals:bear
+- name: nginx
+  image:supergiantkir/animals:bear
   ports:
   - containerPort: 80
   volumeMounts:
    - name: app-storage
      mountPath: /storage
-- name: app2
+- name: springapp
   image: yanivomc/spring-music:latest
   ports:
   - containerPort: 8080
